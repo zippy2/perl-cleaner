@@ -1,6 +1,6 @@
 MANINC = man.include
 VERSION=$(shell grep "PERL_CLEANER_VERSION=" ./perl-cleaner | sed -e 's:^PERL_CLEANER_VERSION=::' )
-FILES=perl-cleaner perl-cleaner.1
+FILES=perl-cleaner perl-cleaner.1 perl-cleaner.bash
 PKGDIR=perl-cleaner-$(VERSION)
 TARBALL=$(PKGDIR).tar.bz2
 
